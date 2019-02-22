@@ -1,3 +1,5 @@
-sno,testcase,url,resources,username,apikey,headers,method,payload,statuscode
-1,get users,https://www.google.com/,,,,,get,,200
-2,get users with invalid cred,https://api.github.com/,users,<incorrect username>,<incorrect api key>,,get,,401
+sno,testcase,url,resources,username,apikey,headers,method,payload,statuscode,result
+1,post users,https://reqres.in,/api/users,,,,post,"{'name': 'morpheus', 'job': 'bigdata qe'}",201,
+2,get users,https://httpbin.org/get,,,,,get,,200,
+3,put users,https://reqres.in,/api/users/2,,,,put,"{ 'name': 'morpheus', 'job': 'zion resident'}",200,
+4,delete users,https://reqres.in,/api/users/2,,,,delete,,204,

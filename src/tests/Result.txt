@@ -1,0 +1,8 @@
+Start executing API tests
+4
+Test Passed - Successfull 201
+Test Passed - Successfull 200
+404
+Test Failed - client error 404
+404
+Test Failed - client error 404

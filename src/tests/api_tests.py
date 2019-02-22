@@ -16,7 +16,6 @@ import nose
 
 path = "../data/input.csv"
 input=helpers.csvreader.read_csv(None,path)
-
 print ("Start executing API tests")
 
 class test_api_ccc:
